@@ -1,4 +1,4 @@
-### Sample using Redis with DRF
+# Sample using Redis with DRF
 
 ## Run the project
 - Clone the repository
@@ -7,6 +7,8 @@
 
 ## Run test
 - Run `docker-compose run --rm web python manage.py test api` to run the tests
+
+GET: /values
 
 POST: /values
 
