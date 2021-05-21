@@ -1,4 +1,4 @@
-# Sample using Redis with DRF
+# Sample of using Redis with DRF
 
 ## Run the project
 - Clone the repository
@@ -8,9 +8,9 @@
 ## Run test
 - Run `docker-compose run --rm web python manage.py test api` to run the tests
 
-GET: /values
+Getting all data from Redis - GET: /values
 
-POST: /values
+Saving data to Redis - POST: /values
 
 ```bash
 {
@@ -19,9 +19,9 @@ POST: /values
 }
 ```
 
-GET: /values?keys=Key1,Key2
+Getting data via keys - GET: /values?keys=Key1,Key2
 
-PATCH: /values
+Updating data in Redis - PATCH: /values
 
 ```bash
 {
